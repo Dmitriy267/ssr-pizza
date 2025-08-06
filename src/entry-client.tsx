@@ -1,7 +1,7 @@
 import './index.css';
 import { StrictMode } from 'react';
-// import { hydrateRoot } from 'react-dom/client';
-import { createRoot } from 'react-dom/client';
+import { hydrateRoot } from 'react-dom/client';
+//import { createRoot } from 'react-dom/client';
 import App from './App';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { ErrorPage } from './pages/errorPage/ErrorPage.tsx';
@@ -97,7 +97,8 @@ const router = createBrowserRouter([
     },
 ]);
 
-createRoot(document.getElementById('root')!).render(
+hydrateRoot(
+    document.getElementById('root') as HTMLElement,
     <StrictMode>
         <Provider store={store}>
             <RouterProvider router={router} />
