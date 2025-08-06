@@ -2,6 +2,7 @@
     "name": "ssr-pizza",
     "private": true,
     "version": "0.0.0",
+    "homepage": "https://github.com/Dmitriy267/ssr-pizza",
     "type": "module",
     "scripts": {
         "dev": "node server",
