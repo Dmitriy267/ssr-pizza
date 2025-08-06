@@ -1,0 +1,47 @@
+@media screen and (max-width: 1549px) {
+    .section__order {
+        padding-top: 59px; /**/
+    }
+    .h2-order {
+        font-weight: 800;
+        font-size: 1.625rem;
+        color: var(--yellow-color);
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .btn-order {
+        border-radius: 8px;
+        font-weight: 800;
+        color: #231f20;
+        background-color: var(--yellow-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 18.66%; /**/
+        height: 55px;
+        font-family: Montserrat;
+        font-size: 0.9375rem;
+        line-height: 187%;
+    }
+    .title-order {
+        font-weight: 800;
+        font-size: 1.375rem;
+        line-height: 77%;
+        color: var(--yellow-color);
+    }
+}
+@media screen and (max-width: 768px) {
+    .section__order {
+        padding-top: 45px;
+    }
+
+    .btn-order {
+        width: 30.66%; /**/
+    }
+}
+@media screen and (max-width: 320px) {
+    .btn-order {
+        width: 74.66%;
+    }
+}

@@ -1,0 +1,27 @@
+@media screen and (max-width: 1549px) {
+    .sections__actions {
+        padding-top: 25px; /**/
+    }
+    .h2__actions {
+        font-weight: 700; /**/
+        font-size: 1.875rem; /**/
+        color: var(--yellow-color);
+    }
+}
+@media screen and (max-width: 768px) {
+    .sections__actions {
+        padding-top: 45px;
+    }
+    .h2__actions {
+        font-weight: 800;
+        font-size: 1.625rem;
+    }
+}
+@media screen and (max-width: 320px) {
+    .sections__actions {
+        padding-top: 21px;
+    }
+    .h2__actions {
+        font-weight: 700;
+    }
+}

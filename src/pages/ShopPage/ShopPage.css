@@ -1,0 +1,195 @@
+@media screen and (max-width: 1549px) {
+    .shop__wrapper {
+        padding-top: 59px; /**/
+    }
+
+    .shop__h2 {
+        font-weight: 800;
+        font-size: 2.25rem; /**/
+        color: var(--yellow-color);
+        margin-top: 39px; /**/
+        margin-bottom: 34px; /**/
+    }
+    .block__sauce_table {
+        margin-top: 40px; /**/
+        display: flex;
+        width: 100%;
+        flex-wrap: nowrap; /**/
+        gap: 21px; /**/
+    }
+    .h2__shop_add {
+        margin-top: 40px; /**/
+    }
+    .h2__shop_add,
+    .h3__shop {
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 71%; /**/
+        color: var(--yellow-color);
+    }
+    .h3__shop {
+        margin-top: 40px; /**/
+    }
+    .btn__left {
+        margin-bottom: 18px;
+    }
+    .h3__promo {
+        margin-top: 43px; /**/
+        margin-bottom: 24px;
+        font-weight: 600;
+        font-size: 1.375rem;
+        line-height: 77%; /**/
+        color: #ff2e65;
+    }
+
+    .text__promo_active {
+        margin-bottom: 8px;
+        font-size: 0.875rem;
+    }
+    .summa__shop {
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 71%; /**/
+        color: var(--black-color);
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .summa__shop span {
+        font-weight: 800;
+        font-size: 2.25rem; /**/
+        text-align: right;
+        color: var(--yellow-color);
+        margin-left: 18px;
+    }
+    .block-btn__shop {
+        margin-top: 42px; /**/
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse; /**/
+        justify-content: space-between; /**/
+    }
+
+    .block-btn__shop button:first-of-type,
+    .block-btn__shop button:last-of-type {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 224px; /**/
+        height: 55px;
+        font-family: var(--font-family);
+        font-size: 0.9375rem;
+        line-height: 187%;
+    }
+    .block-btn__shop button:first-of-type {
+        border-radius: 8px;
+        font-weight: 800;
+        color: #231f20;
+        background-color: var(--yellow-color);
+    }
+
+    .block-btn__shop button:first-of-type span,
+    .btn__left span {
+        font-family: Awesome;
+        font-weight: 900;
+        font-size: 15px;
+        line-height: 187%;
+    }
+    .block-btn__shop button:first-of-type span {
+        color: #231f20;
+        margin-left: 15px;
+        padding-top: 4px;
+    }
+    .btn__left span {
+        color: #696f7a;
+        margin-right: 15px;
+    }
+    .block-btn__shop button:last-of-type {
+        font-weight: 700;
+        color: #696f7a;
+    }
+    .text-percent {
+        margin-top: 8px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .shop__wrapper {
+        padding-top: 45px;
+    }
+
+    .shop__h2 {
+        margin-top: 37px;
+        font-size: 1.9375rem;
+        margin-bottom: 20px;
+    }
+    .block__sauce_table {
+        margin-top: 30px;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .h2__shop_add {
+        margin-top: 25px;
+    }
+    .h2__shop_add,
+    .h3__shop {
+        line-height: 85%;
+    }
+    .h3__shop {
+        margin-top: 30px;
+    }
+
+    .h3__promo {
+        margin-top: 33px;
+        line-height: 85%;
+    }
+
+    .summa__shop {
+        margin-top: 30px;
+        line-height: 81%;
+        width: 100%;
+    }
+    .summa__shop span {
+        font-size: 1.625rem;
+    }
+    .block-btn__shop {
+        margin-top: 34px;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .block-btn__shop button:first-of-type,
+    .block-btn__shop button:last-of-type {
+        width: 32.66%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .shop__wrapper {
+        padding-top: 12px;
+    }
+
+    .shop__h2 {
+        font-size: 1.625rem;
+    }
+    .block__sauce_table {
+        gap: 6px;
+    }
+
+    .h2__shop_add {
+        margin-top: 22px;
+    }
+    .h2__shop_add,
+    .h3__shop {
+        font-size: 1.25rem;
+    }
+
+    .summa__shop {
+        font-size: 1.3125rem;
+    }
+
+    .block-btn__shop button:first-of-type,
+    .block-btn__shop button:last-of-type {
+        font-size: 0.9375rem;
+        width: 74.66%;
+    }
+}

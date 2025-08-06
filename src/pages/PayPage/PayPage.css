@@ -1,0 +1,218 @@
+@media screen and (max-width: 1549px) {
+    .section__pay {
+        padding-top: 59px; /**/
+    }
+
+    .data-user__pay {
+        margin-top: 40px; /**/
+        display: flex;
+        flex-direction: column;
+    }
+    .title__pay {
+        font-weight: 800;
+        font-size: 2rem; /**/
+        color: var(--yellow-color);
+    }
+    .text-user__pay_first {
+        font-weight: 600;
+        font-size: 1.0625rem; /**/
+        line-height: 165%; /**/
+        color: #231f20;
+        opacity: 0.7;
+    }
+    .div__pay {
+        display: flex;
+        align-items: center;
+        border: 1.5px solid #e2e2e9;
+        border-radius: 7px;
+        width: 60%; /**/
+        padding-left: 20px;
+        font-weight: 700;
+        color: #231f20;
+        opacity: 0.82;
+    }
+    .div_first,
+    .div_second,
+    .div_three,
+    .div_fourth {
+        font-size: 1.0625rem;
+    }
+    .div_first {
+        height: 48px;
+        line-height: 165%;
+    }
+    .div_second {
+        height: 48px;
+        background-color: var(--bg-color-grey);
+        line-height: 165%; /**/
+    }
+    .div_three {
+        height: 129px;
+        background-color: var(--bg-color-grey);
+        line-height: 150%; /**/
+    }
+    .div_fourth {
+        height: 48px;
+        background-color: var(--bg-color-grey);
+        line-height: 165%; /**/
+    }
+    .text__pay_gap-first {
+        margin-top: 28px;
+        margin-bottom: 16px;
+    }
+    .text__pay_gap-second {
+        margin-top: 27px;
+        margin-bottom: 13px;
+    }
+    .text__pay_gap-three {
+        margin-top: 16px;
+        margin-bottom: 13px;
+    }
+    .text__pay_gap-fourth {
+        margin-top: 20px;
+        margin-bottom: 13px;
+    }
+    .h3__pay {
+        margin-top: 23px;
+        margin-bottom: 14px;
+        font-weight: 600;
+        font-size: 1.125rem;
+        line-height: 94%;
+        color: var(--yellow-color);
+    }
+    .div-sms__actions {
+        width: 100%;
+        display: flex;
+        margin-top: 38px; /**/
+    }
+    .div-sms__actions label {
+        font-weight: 700;
+        font-size: 0.9375rem; /**/
+        line-height: 187%; /**/
+        color: #231f20;
+        opacity: 0.7;
+    }
+    .div-sms__actions span:first-of-type {
+        margin-left: 0px; /**/
+    }
+    .div-sms__actions span:last-of-type {
+        margin-left: 23px; /**/
+    }
+    .input-decor__actions {
+        appearance: none;
+        position: relative;
+        border: 2px solid var(--yellow-color);
+        border-radius: 3px;
+        width: 19px; /**/
+        height: 19px; /**/
+        transition: 100ms;
+        margin-right: 16px;
+    }
+    .input-decor__actions::after {
+        content: '';
+        position: absolute;
+        top: 5px; /**/
+        left: 5px; /**/
+        width: 0;
+        height: 0;
+        border-radius: 100%;
+        background-color: var(--yellow-color);
+        transition: 100ms;
+        overflow: hidden;
+    }
+    .input-decor__actions:checked::after {
+        width: 5px; /**/
+        height: 5px; /**/
+        transform: scale(2); /**/
+        transition: 100ms;
+    }
+}
+@media screen and (max-width: 768px) {
+    .section__pay {
+        padding-top: 11px;
+    }
+    .data-user__pay {
+        margin-top: 32px;
+    }
+    .title__pay {
+        font-size: 1.625rem;
+    }
+    .text-user__pay_first {
+        font-size: 1.25rem; /**/
+        line-height: 187%;
+    }
+
+    .div_second {
+        line-height: 187%;
+    }
+    .div_three {
+        line-height: 171%;
+    }
+    .div_fourth {
+        line-height: 200%;
+    }
+
+    .div-sms__actions {
+        margin-top: 14px;
+    }
+    .div-sms__actions label {
+        font-size: 1rem; /**/
+        line-height: 164%;
+    }
+    .div-sms__actions span:first-of-type {
+        margin-left: 0px;
+    }
+    .div-sms__actions span:last-of-type {
+        margin-left: 9px;
+    }
+    .input-decor__actions {
+        width: 24px; /**/
+        height: 24px; /**/
+    }
+    .input-decor__actions::after {
+        top: 6px; /**/
+        left: 6px; /**/
+    }
+    .input-decor__actions:checked::after {
+        width: 7px;
+        height: 7px;
+        transition: 100ms;
+        transform: scale(1); /**/
+    }
+}
+@media screen and (max-width: 320px) {
+    .text-user__pay_first {
+        font-size: 0.9375rem;
+    }
+    .div__pay {
+        width: 100%;
+    }
+    .div_first {
+        font-size: 1.0625rem;
+    }
+    .div_second {
+        font-size: 0.9375rem;
+    }
+    .div_three {
+        font-size: 0.875rem;
+    }
+    .div_fourth {
+        font-size: 0.875rem;
+    }
+
+    .div-sms__actions label {
+        font-size: 0.875rem;
+    }
+    .div-sms__actions span:first-of-type {
+        margin-left: 36px;
+    }
+
+    .input-decor__actions {
+        width: 19px;
+        height: 19px;
+    }
+    .input-decor__actions::after {
+        top: 4.75px;
+        left: 4.75px;
+    }
+}
